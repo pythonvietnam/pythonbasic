@@ -1,6 +1,6 @@
 # Câu lệnh điều khiển If else
 
-Mẫu câu điều khiển như sau:
+Cấu trúc câu lệnh điều khiển như sau:
 
 ```text
 If statement
@@ -11,8 +11,8 @@ if expression:
     do this
 ```
 
-Dưới đây là ví dụ để check một số lớn hơn hoặc nhỏ hơn 100:
-
+Ví dụ: Viết chương trình kiểm tra số nhỏ (lớn) hơn 100
+Code tham khảo
 ```text
 #!/usr/bin/env python
 number = int(raw_input("Enter a number: "))
@@ -20,7 +20,7 @@ if number < 100:
     print "The number is less than 100"
 ```
 
-Sau đó chạy nó như sau:
+Kết quả:
 
 ```text
 $ ./number100.py
@@ -41,7 +41,7 @@ else:
     print "The number is greater than 100"
 ```
 
-Kết quả như sau:
+Kết quả :
 
 ```text
 $ ./number100.py
@@ -49,7 +49,7 @@ Enter a number: 345
 The number is greater than 100
 ```
 
-Một ví dụ rất đơn giản như sau:
+Ví dụ về cách sử dụng elif
 
 ```text
 >>> x = int(raw_input("Please enter an integer: "))
@@ -64,17 +64,4 @@ Một ví dụ rất đơn giản như sau:
 ...      print 'More'
 ```
 
-Kiểm tra giá trị thật
-
-```text
-if x:
-    pass
-
-Warning
-
-Don’t do this
-
-if x == True:
-    pass
-```
-
+Chúc các bạn thành công !
