@@ -1,16 +1,6 @@
 # Biến và kiểu dữ liệu
 
-Từ khóa và định danh
-
-Code Python có thể được chia thành các định danh. Đinh danh \( hay còn được gọi là tên\) được mô tả bởi các định nghĩa từ vựng sau đây:
-
-```text
-identifier ::= (letter|"_") (letter | digit | "_")*
-letter ::= lowercase | uppercase
-lowercase ::= "a"..."z"
-uppercase ::= "A"..."Z"
-digit ::= "0"..."9"
-```
+Từ khóa
 
 Sau đây là danh sách các từ khóa của ngôn ngữ, chúng ta không thể sử dụng chúng như một định danh thông thường. Chúng ta phải dùng chính xác các từ sau đây:
 
