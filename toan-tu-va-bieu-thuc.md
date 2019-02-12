@@ -1,6 +1,6 @@
 # Toán tử và biểu thức
 
-Trong Python bạn có thể viết biểu thức trên các dòng.
+Trong Python bạn có thể thực hiện phép tính từ trên trình thông dịch.
 
 Ví dụ:
 
@@ -46,18 +46,13 @@ days = int(raw_input("Enter days: "))
 print "Months = %d Days = %d" % (divmod(days, 30))
 ```
 
-Hàm divmod\(num1, num2\) trả về hai giá trị , first is the division of num1 and num2 and in second the modulo of num1 and num2.
+Hàm divmod\(num1, num2\) trả về hai giá trị , giá trị thứ 2 là division của num1 và num2 và giá trị thứ 2 là modulo của num1 và num2.
 
-Relational Operators
+Toán tử quan hệ (Relational Operators)
 
-You can use the following operators as relational operators Relational Operators Operator Meaning
-
-&lt; Is less than &lt;= Is less than or equal to
-
-> Is greater than = Is greater than or equal to == Is equal to != Is not equal to
+Bạn cũng có thể sử dụng toán tử quan hệ trong Python như ví dụ dưới đây.
 
 ```text
-Ví dụ:
 
 >>> 1 < 2
 True
@@ -76,9 +71,9 @@ True
 1.3333333333333333
 ```
 
-Logical Operators
+Toán tử logic (Logical Operators)
 
-To do logical AND , OR we use and ,or keywords. x and y returns False if x is False else it returns evaluation of y. If x is True, it returns True.
+Ví dụ:
 
 ```text
 >>> 1 and 4
@@ -90,10 +85,7 @@ To do logical AND , OR we use and ,or keywords. x and y returns False if x is Fa
 >>> 0 or 4
 4
 ```
-
-Shorthand Operator
-
-x op = expression is the syntax for shorthand operators. It will be evaluated like x = x op expression , Few examples are
+Tính toán
 
 ```text
 >>> a = 12
@@ -119,7 +111,7 @@ while a < N:
     a *= a
 ```
 
-The output
+Kết quả:
 
 ```text
 $ ./shorthand.py
@@ -128,15 +120,15 @@ $ ./shorthand.py
 16
 ```
 
-Expressions
+Biểu thứ
 
-Generally while writing expressions we put spaces before and after every operator so that the code becomes clearer to read, like
+Bạn có thể sử dụng như ví dụ dưới đây, để dễ đọc bạn nên có dấu cách.
 
 ```text
 a = 234 * (45 - 56.0 / 34)
 ```
 
-One example code used to show expressions
+Ví dụ:
 
 ```text
 #!/usr/bin/env python
@@ -151,7 +143,7 @@ print "Y = ", y
 print "Z = ", z
 ```
 
-The output
+Kết quả
 
 ```text
 $ ./evaluationexp.py
@@ -160,7 +152,7 @@ Y =  7
 Z =  4
 ```
 
-At first x is being calculated. The steps are like this
+Ví dụ:
 
 ```text
 9 - 12 / 3 + 3 * 2 -1
@@ -170,8 +162,6 @@ At first x is being calculated. The steps are like this
 11 - 1
 10
 ```
-
-Now for y and z we have parentheses, so the expressions evaluated in different way. Do the calculation yourself to check them.
 
 Chuyển đổi kiểu
 
@@ -264,4 +254,4 @@ Bonus        = 1000.00
 Commision    = 2045.00
 Gross salary = 4545.00
 ```
-
+Chúc các bạn thành công !
