@@ -10,7 +10,7 @@ Mọi ý kiến đóng góp xin gửi về:
 
 Nguyễn Ngọc Khánh
 
-Email: khanhnn@pythonvietnam.info
+Email: info@pycon.vn
 
 Skype/ Yahoo: khanhnnvn
 
