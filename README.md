@@ -14,7 +14,7 @@ Email: khanhnn@pythonvietnam.info
 
 Skype/ Yahoo: khanhnnvn
 
-[http://pythonvietnam.info](http://pythonvietnam.info)
+[https://pycon.vn](https://pycon.vn)
 
 [http://pythonvietnam.com](http://pythonvietnam.com)
 
